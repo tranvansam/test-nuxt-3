@@ -107,9 +107,11 @@ const swiperOption = computed(() => {
 <style scoped lang="scss">
 ::v-deep {
   .swiper.swiper-coverflow.swiper-3d {
-    overflow: unset !important;
+    @media (max-width: 960px) {
+      overflow: unset !important;
+    }
   }
-  .swiper-pagination.swiper-pagination-clickable{
+  .swiper-pagination.swiper-pagination-clickable {
     z-index: 99 !important;
   }
 }

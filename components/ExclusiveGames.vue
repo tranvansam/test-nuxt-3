@@ -77,7 +77,7 @@ const list = [
 const swiperOption = computed(() => {
   return {
     slidesPerView: isMbScreen ? 3 : 9,
-    spaceBetween: 40,
+    spaceBetween: 20,
     navigation: false,
     modules: [Navigation],
     loop: true,

@@ -1,5 +1,5 @@
 <template>
-  <div class="text-center">
+  <div >
     <CarouselBanner :isMbScreen="isMbScreen" />
     <MenuGame :isMbScreen="isMbScreen" />
     <ExclusiveGames :isMbScreen="isMbScreen" />
@@ -8,7 +8,6 @@
 </template>
 
 <script setup>
-import { BButton, BCard } from "bootstrap-vue-next";
 import CarouselBanner from "~/components/CarouselBanner.vue";
 import MenuGame from "~/components/MenuGame.vue";
 import ExclusiveGames from "~/components/ExclusiveGames.vue";

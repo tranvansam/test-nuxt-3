@@ -4,8 +4,6 @@ import { Navigation } from "swiper/modules";
 import "swiper/swiper-bundle.css";
 import { computed, ref } from "vue";
 import SeeAll from "~/components/SeeAll.vue";
-import sHot from "@/assets/icons/hot.svg";
-import sNew from "@/assets/icons/new.svg";
 import pr1 from "@/assets/icons/pr1.svg";
 import pr2 from "@/assets/icons/pr2.svg";
 import pr3 from "@/assets/icons/pr3.svg";

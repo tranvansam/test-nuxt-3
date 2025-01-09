@@ -3,8 +3,6 @@ import path from 'path';
 
 export default defineNuxtConfig({
   css: [
-    "bootstrap/dist/css/bootstrap.min.css",
-    "bootstrap-vue-next/dist/bootstrap-vue-next.css",
     '~/assets/styles/scss/index.scss',
   ],
 

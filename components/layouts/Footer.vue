@@ -9,7 +9,5 @@
   
   <style scoped lang="scss">
   // SCSS cho footer
-  footer {
-  }
   </style>
   
